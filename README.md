@@ -76,6 +76,7 @@ Additionally, I wish to thank the contributors of the Great Energy Predictor III
     - Placeholder for processed datasets
   - **trained_model/**
     - Placeholder for trained model files
+  - `fetch_raw_data.py`: Scrpit for retrieving datasets from Kaggle
   - `DataPrepare.py`: Script for data preparation and feature engineering
   - `TrainingScript.py`: Script for training machine learning models
   - `PredictScript.py`: Script for making predictions and evaluating models
