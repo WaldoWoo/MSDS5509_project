@@ -49,8 +49,17 @@ M&V is a cornerstone of energy efficiency programs, ensuring that:
 - **Observation**: While the model aligns with the timing of peaks, the amplitude is often underestimated.
 
 ### **Limitations and Future Work**
-- The current model does not fully capture usage spikes, which could be improved with more complex architectures (e.g., neural networks).
-- The dataset reflects irregular usage patterns from a single residence, which adds variability.
+The results of this exercise, while showing potential, fall short of being satisfactory from the perspective of an energy professional. A final evaluation of the predicted target variable against a year-long test dataset yielded an RMSLE of 0.15. The RMSLE indicates that, on average, the predicted values differ from the actual values by a factor of 15% on a logarithmic scale. The total predicted energy usage deviated from the actual usage by approximately 300 kWh, which represents a 14% difference from the actual total.
+
+The predicted data successfully captured the timing of energy usage peaks but failed to match their magnitude. While this alignment with the timing of peaks may have some utility, it is highly desireable for the magnitude of the predictions to align closely with actual measurements. Additionally, the model performed well on lower values of energy usage but struggled to capture spikes.
+
+#### Nature of the Dataset
+The nature of the dataset itself could contribute to the challenges in modeling. This data represents my personal energy usage, which is influenced by my irregular schedule and the fact that I live alone. Patterns are often more systematic and easier to identify for commercial buildings or data aggregated from multiple buildings. My personal energy usage trends may be more random and less predictable. These factors introduce a high degree of variability, making it more difficult for the selected machine learning scheme to find consistent patterns or accurately predict usage.
+
+#### Next Steps
+The results could likely be improved by incorporating an ensemble of models, including neural networks, to better capture nonlinear relationships and complex patterns in the data.
+
+If forecasting was the sole purpose of this excercise, then recursive forecasting could be implemented with potential to greatly increase model predictions. This process involves incorporating past observations of the target variable as a feature in model training.
 
 ## Repository Structure
 
