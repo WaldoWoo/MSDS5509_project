@@ -29,6 +29,29 @@ M&V is a cornerstone of energy efficiency programs, ensuring that:
 - Energy efficiency improvements deliver promised savings.
 - Stakeholders (e.g., utilities, building owners) can trust the reported outcome
 
+
+## Results
+
+### **Key Metrics**
+- **Root Mean Squared Logarithmic Error (RMSLE):** 0.15
+  - Indicates the predicted values deviate, on average, by 15% on a logarithmic scale.
+- **Total Energy Usage Deviation:** ~300 kWh (14%)
+  - The predicted total energy usage for the test period was approximately 300 kWh lower than the actual usage.
+
+### **Insights**
+- The model captured the **timing** of energy usage peaks but struggled with **magnitude**, particularly during spikes.
+- Predictions were more accurate for **lower energy usage values**.
+
+### **Visualization**
+![Energy Usage Prediction](path/to/energy_prediction_plot.png)
+
+- The plot shows actual vs. predicted energy usage for a three-week period.
+- **Observation**: While the model aligns with the timing of peaks, the amplitude is often underestimated.
+
+### **Limitations and Future Work**
+- The current model does not fully capture usage spikes, which could be improved with more complex architectures (e.g., neural networks).
+- The dataset reflects irregular usage patterns from a single residence, which adds variability.
+
 ## Repository Structure
 
 - **Home_Energy_Project/**
@@ -43,5 +66,3 @@ M&V is a cornerstone of energy efficiency programs, ensuring that:
   - `PredictScript.py`: Script for making predictions and evaluating models
   - `config.py`: Centralized configuration for file paths
   - `README.md`: Project overview and instructions
-
-
