@@ -1,4 +1,4 @@
-# Home Energy Project: Machine Learning for Energy Forecasting and Analysis
+# Home Energy Predict: Machine Learning for Energy Forecasting and Analysis
 
 This project demonstrates a machine learning (ML) pipeline to analyze, forecast, and evaluate energy usage patterns in residential settings. Using personal energy usage data collected over multiple years, the project builds predictive models that could be extended for applications like **Measurement and Verification (M&V)** of energy savings or accurate energy/demand forecasting.
 
