@@ -33,16 +33,15 @@ M&V is a cornerstone of energy efficiency programs, ensuring that:
 
 - **Home_Energy_Project/**
   - **raw_data/**
-    - `placeholder.csv`: Placeholder for raw data (e.g., energy usage, weather data)
+    - Placeholder for raw data (e.g., energy usage, weather data)
   - **processed_data/**
-    - `example_processed.pkl`: Placeholder for processed datasets
+    - Placeholder for processed datasets
   - **trained_model/**
-    - `model_placeholder.pkl`: Placeholder for trained model files
-  - **notebooks/**
-    - `DataPrepare.ipynb`: Notebook for data preparation and feature engineering
-    - `TrainingNotebook.ipynb`: Notebook for training machine learning models
-    - `PredictNotebook.ipynb`: Notebook for making predictions and evaluating models
+    - Placeholder for trained model files
+  - `DataPrepare.py`: Script for data preparation and feature engineering
+  - `TrainingScript.py`: Script for training machine learning models
+  - `PredictScript.py`: Script for making predictions and evaluating models
   - `config.py`: Centralized configuration for file paths
   - `README.md`: Project overview and instructions
-  - `requirements.txt`: Python dependencies for the project
+
 
