@@ -43,7 +43,7 @@ M&V is a cornerstone of energy efficiency programs, ensuring that:
 - Predictions were more accurate for **lower energy usage values**.
 
 ### **Visualization**
-![Energy Usage Prediction](path/to/energy_prediction_plot.png)
+![Energy Usage Prediction](energy_prediction_plot.png)
 
 - The plot shows actual vs. predicted energy usage for a three-week period.
 - **Observation**: While the model aligns with the timing of peaks, the amplitude is often underestimated.
