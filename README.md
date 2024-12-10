@@ -61,6 +61,12 @@ The results could likely be improved by incorporating an ensemble of models, inc
 
 If forecasting was the sole purpose of this excercise, then recursive forecasting could be implemented with potential to greatly increase model predictions. This process involves incorporating past observations of the target variable as a feature in model training.
 
+In addition, historical forecasts could be integrated as a feature(s). Each observation of this feature would represent what the past forecast was according to a basis day. For example the 7-day historical temperature forecast would represent what the forecasted temperature was 7 days prior to each observation's current time.
+
+#### Acknowledgements
+I would like to extend my gratitude to VisualCrossing for providing academic-level access to their comprehensive weather database, which was instrumental in this project.
+
+Additionally, I wish to thank the contributors of the Great Energy Predictor III competition for their innovative ideas and methodologies, which served as a valuable resource for approaching and solving this problem effectively.
 ## Repository Structure
 
 - **Home_Energy_Project/**
